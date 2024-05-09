@@ -5,7 +5,7 @@ const app = express()
 
 app.use(cors())
 
-app.get('/', (req, res) => {
+app.get('/api/blogs', (req, res) => {
   res.json([
     {
       "id":"1",
